@@ -1,0 +1,12 @@
+.headings-button {
+    gap: 4px;
+    display: flex;
+
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F2F0FE;
+    padding: 10px 20px;
+
+    font-size: 14px;
+}
