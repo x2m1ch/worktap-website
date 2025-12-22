@@ -1,0 +1,51 @@
+.work-card {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F2F0FE;
+    padding: 10px 20px;
+    width: 500px;
+}
+
+.work-heading {
+    gap: 16px;
+    display: flex;
+    align-items: center;
+
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.work-body {
+    font-size: 14px;
+
+    word-wrap: break-word;
+}
+
+.view-button {
+    gap: 6px;
+    display: flex;
+    justify-content: center;
+
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1DBF73;
+    padding: 10px 20px;
+    width: 100%;
+
+    font-weight: 600;
+    font-size: 14px;
+    color: #1DBF73;
+}
+
+.view-button:hover {
+    background-color: #1DBF73;
+
+    font-weight: 500;
+    color: #F6FAFD;
+}
