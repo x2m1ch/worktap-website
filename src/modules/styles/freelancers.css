@@ -1,0 +1,27 @@
+.freelancers {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 70px;
+}
+
+.freelancers-heading {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.freelancers-cards {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.get-all-freelancers {
+    background-color: #F2F0FE;
+    border-radius: 20px;
+
+    font-weight: 600;
+    color: #1DBF73;
+}
