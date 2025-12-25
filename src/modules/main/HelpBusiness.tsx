@@ -9,13 +9,13 @@ import '../styles/help-business.css'
 const HelpBussiness = () => {
     return (
         <section className="help-business">
-            <h2>Как WorkTap помогает бизнесу?</h2>
+            <h2 className='help-business-heading'>Как WorkTap помогает бизнесу?</h2>
 
             <BusinessLines src={ creditCard } body='Оплачивайте с р/с или карты компании'/>
             <BusinessLines src={ clock } body='Экономьте до 87% бюджета на фрилансе'/>
             <BusinessLines src={ money } body='Экономьте до 75% времени на решении фриланс задач'/>
 
-            <h2>WorkTap — быстро, просто и безопасно!</h2>
+            <p className='help-business-description'>WorkTap — быстро, просто и безопасно!</p>
 
             <button className='button-ready'>Начать</button>
         </section>

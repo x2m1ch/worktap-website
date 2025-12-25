@@ -6,6 +6,7 @@
 
     background: url(/images/main/help-business/background-help-business.png);
     padding: var(--margin);
+    padding-bottom: 30px;
 
     color: white;
 }
@@ -20,6 +21,11 @@
     font-weight: 700;
 }
 
-.office-image {
-    width: 900px;
+.help-business-heading {
+    font-size: 21px;
+}
+
+.help-business-description {
+    font-size: 17px;
+    font-weight: 600;
 }

@@ -5,6 +5,7 @@
 
     background-color: #F2F0FE;
     padding: var(--margin);
+    padding-bottom: 40px;
 }
 
 .footer-body {
