@@ -2,6 +2,8 @@
     gap: 50px;
     display: flex;
     flex-direction: column;
+
+    margin: var(--margin);
 }
 
 .workers-heading {

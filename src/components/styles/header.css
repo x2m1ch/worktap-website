@@ -3,6 +3,8 @@
     align-items: center;
     justify-content: space-between;
 
+    margin: var(--margin);
+
     font-weight: 500;
 }
 

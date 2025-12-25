@@ -12,7 +12,7 @@ const AddFreelancer = (props: {src: string, name: string, work: string, projects
 
                     <section className='freelancer-info'>
                         <h3 className='freelancer-name'>{props.name}</h3>
-                        <p className='freelancer-work'>{props.work}</p>
+                        <h3 className='freelancer-work'>{props.work}</h3>
                         <p className='freelancer-projects'>Выполнено проектов: {props.projects}</p>
                         <div className='freelancer-rating'>
                             <img src={ starFill } alt="" />

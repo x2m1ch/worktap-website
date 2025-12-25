@@ -38,13 +38,10 @@
 
 .freelancer-work {
     color: #FBA457;
-    font-weight: 600;
-    font-size: 20px;
 }
 
 .freelancer-projects {
     font-weight: 500;
-    font-size: 15px;
 }
 
 .freelancer-rating {
@@ -61,8 +58,6 @@
     padding: 10px 20px;
 
     color: #1DBF73;
-    font-weight: 600;
-    font-size: 14px;
 }
 
 .button-message-freelancer:hover {

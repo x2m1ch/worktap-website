@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 580px 1fr;
 
-    margin: 80px 0;
+    margin: var(--margin);
 }
 
 .hero-column-one {
@@ -90,7 +90,6 @@
     padding: 10px 20px;
 
     font-weight: 600;
-    font-size: 14px;
     color: #1DBF73;
 }
 
