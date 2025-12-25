@@ -1,0 +1,25 @@
+.help-business {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+    background: url(/images/main/help-business/background-help-business.png);
+    padding: var(--margin);
+
+    color: white;
+}
+
+.button-ready {
+    background-color: #5E4EDB;
+    border-radius: 50px;
+    padding: 20px 60px;
+
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.office-image {
+    width: 900px;
+}

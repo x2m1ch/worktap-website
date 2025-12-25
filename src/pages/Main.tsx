@@ -3,6 +3,7 @@ import Hero from "../modules/main/Hero"
 import Workers from "../modules/main/Workers"
 import Freelancers from "../modules/main/Freelancers"
 import Tasks from "../modules/main/Tasks"
+import HelpBussiness from "../modules/main/HelpBusiness"
 import Footer from "../components/Footer"
 
 const Main = () => {
@@ -13,6 +14,7 @@ const Main = () => {
             <Workers />
             <Freelancers />
             <Tasks />
+            <HelpBussiness />
             <Footer />
         </>
     )

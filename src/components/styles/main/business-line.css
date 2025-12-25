@@ -1,0 +1,12 @@
+.business-line {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    width: 533px;
+
+    color: black;
+}
