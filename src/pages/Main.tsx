@@ -9,6 +9,8 @@ import Footer from "../components/Footer"
 const Main = () => {
     return (
         <>
+            <title>Главная</title>
+
             <Header />
             <Hero />
             <Workers />

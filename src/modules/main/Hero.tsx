@@ -3,7 +3,7 @@ import Headings from '../../components/main/Headings'
 import guy from '/images/main/hero/guy.png'
 import arrow from '/images/main/hero/arrow.svg'
 
-import '../styles/hero.css'
+import '../styles/main/hero.css'
 
 const Hero = () => {
     return (

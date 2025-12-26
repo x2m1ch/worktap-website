@@ -1,6 +1,6 @@
 import AddFreelancer from '../../components/main/AddFreelancer'
 
-import '../styles/freelancers.css'
+import '../styles/main/freelancers.css'
 
 const Freelancers = () => {
     return (

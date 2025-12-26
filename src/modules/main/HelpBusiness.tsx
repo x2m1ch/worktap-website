@@ -4,9 +4,9 @@ import money from '/images/main/help-business/money.svg'
 
 import BusinessLines from '../../components/main/BusinessLines'
 
-import '../styles/help-business.css'
+import '../styles/main/help-business.css'
 
-const HelpBussiness = () => {
+const HelpBusiness = () => {
     return (
         <section className="help-business">
             <h2 className='help-business-heading'>Как WorkTap помогает бизнесу?</h2>
@@ -22,4 +22,4 @@ const HelpBussiness = () => {
     )
 }
 
-export default HelpBussiness
+export default HelpBusiness

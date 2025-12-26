@@ -1,6 +1,6 @@
 import AddWork from '../../components/main/AddWork'
 
-import '../styles/workers.css'
+import '../styles/main/workers.css'
 
 const Workers = () => {
     return (

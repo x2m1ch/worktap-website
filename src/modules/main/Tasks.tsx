@@ -2,7 +2,7 @@ import women from '/images/main/tasks/women.svg'
 import paper from '/images/main/tasks/paper.svg'
 import money from '/images/main/tasks/money.svg'
 
-import '../styles/tasks.css'
+import '../styles/main/tasks.css'
 
 const Tasks = () => {
     return (
