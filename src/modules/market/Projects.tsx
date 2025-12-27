@@ -1,4 +1,5 @@
 import Headings from '../../components/Headings'
+import AddWork from '../../components/market/AddWork'
 
 import arrow from '/images/market/projects/arrow.svg'
 
@@ -25,7 +26,20 @@ const Projects = () => {
             </section>
 
             <section className='market-projects-body'>
-                
+                <AddWork clientName='Екатерина Иванова' projects={3} clientRating={4} clientPrice={50000} clientTime='4 часа 20 минут' clientOffers={50}/>
+                <AddWork clientName='Екатерина Иванова' projects={3} clientRating={4} clientPrice={50000} clientTime='4 часа 20 минут' clientOffers={50}/>
+                <AddWork clientName='Екатерина Иванова' projects={3} clientRating={4} clientPrice={50000} clientTime='4 часа 20 минут' clientOffers={50}/>
+                <AddWork clientName='Екатерина Иванова' projects={3} clientRating={4} clientPrice={50000} clientTime='4 часа 20 минут' clientOffers={50}/>
+                <AddWork clientName='Екатерина Иванова' projects={3} clientRating={4} clientPrice={50000} clientTime='4 часа 20 минут' clientOffers={50}/>
+                <AddWork clientName='Екатерина Иванова' projects={3} clientRating={4} clientPrice={50000} clientTime='4 часа 20 минут' clientOffers={50}/>
+                <AddWork clientName='Екатерина Иванова' projects={3} clientRating={4} clientPrice={50000} clientTime='4 часа 20 минут' clientOffers={50}/>
+                <AddWork clientName='Екатерина Иванова' projects={3} clientRating={4} clientPrice={50000} clientTime='4 часа 20 минут' clientOffers={50}/>
+                <AddWork clientName='Екатерина Иванова' projects={3} clientRating={4} clientPrice={50000} clientTime='4 часа 20 минут' clientOffers={50}/>
+                <AddWork clientName='Екатерина Иванова' projects={3} clientRating={4} clientPrice={50000} clientTime='4 часа 20 минут' clientOffers={50}/>
+            </section>
+
+            <section className='button-download-items'>
+                <button className='button-download'>Загрузить ещё</button>
             </section>
         </section>
     )

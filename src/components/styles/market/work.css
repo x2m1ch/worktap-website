@@ -1,0 +1,76 @@
+.market-work-card {
+    display: flex;
+    justify-content: space-between;
+
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F2F0FE;
+    padding: 10px 20px;
+}
+
+.card-column-one {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.client-info {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+
+    font-weight: 500;
+}
+
+.client-image {
+    width: 100px;
+}
+
+.client-info-body {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.client-rating {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.client-rating-stars {
+    gap: 4px;
+    display: flex;
+}
+
+.client-rating-number {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card-column-two {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+
+    color: #656084;
+}
+
+.card-market-price {
+    gap: 10px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.market-price-number {
+    color: #1DBF73;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.market-offers {
+    font-size: 18px;
+}

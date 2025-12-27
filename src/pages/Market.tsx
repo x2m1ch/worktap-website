@@ -1,5 +1,6 @@
 import Hero from "../modules/market/Hero"
 import Projects from "../modules/market/Projects"
+import Footer from "../components/Footer"
 
 const Market = () => {
     return (
@@ -8,6 +9,7 @@ const Market = () => {
 
             <Hero />
             <Projects />
+            <Footer />
         </>
     )
 }
