@@ -1,4 +1,4 @@
-import '../styles/main/headings.css'
+import './styles/main/headings.css'
 
 const Headings = (props: {body: string}) => {
     return (

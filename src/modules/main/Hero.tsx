@@ -1,4 +1,4 @@
-import Headings from '../../components/main/Headings'
+import Headings from '../../components/Headings'
 
 import guy from '/images/main/hero/guy.png'
 import arrow from '/images/main/hero/arrow.svg'

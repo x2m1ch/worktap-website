@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import logo from '/images/main/header/logo.svg'
 
 import './styles/header.css'
@@ -9,7 +11,7 @@ const Header = () => {
 
             <nav>
                 <ul className='nav'>
-                    <li>Биржа</li>
+                    <li><Link to="/market">Биржа</Link></li>
                     <li>Ворки</li>
                     <li>Конкурсы</li>
                     <li>Создать ворк</li>

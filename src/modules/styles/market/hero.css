@@ -1,0 +1,85 @@
+.market-hero {
+    display: flex;
+    flex-direction: column;
+
+    background: url(/images/market/hero/background.png);
+}
+
+.market-hero-body {
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 40px 100px;
+}
+
+.market-body-heading {
+    text-align: center;
+    font-size: 28px;
+}
+
+.market-hero-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #F2F0FE;
+    width: 600px;
+    height: 60px;
+    border-radius: 50px;
+} 
+
+.market-search-input {
+    padding: 0 20px;
+}
+
+.market-search-input {
+    outline: none;
+}
+
+.market-search-button {
+    background-color: #FBA457;
+    height: 60px;
+    border-radius: 50px;
+    padding: 15px 40px;
+    
+    color: #F6FAFD;
+    font-weight: 700;
+}
+
+.market-profesion {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.market-rows {
+    gap: 30px;
+    display: flex;
+}
+
+.get-categories {
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FBA457;
+    padding: 10px 20px;
+
+    font-weight: 500;
+    font-size: 14px;
+    color: #FBA457;
+}
+
+.market-hero-bottom {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.design-description {
+    font-weight: 600;
+    font-size: 20px;
+}
