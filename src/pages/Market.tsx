@@ -1,4 +1,5 @@
 import Hero from "../modules/market/Hero"
+import Projects from "../modules/market/Projects"
 
 const Market = () => {
     return (
@@ -6,6 +7,7 @@ const Market = () => {
             <title>Биржа</title>
 
             <Hero />
+            <Projects />
         </>
     )
 }

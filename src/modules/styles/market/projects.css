@@ -1,0 +1,36 @@
+.market-projects {
+    padding: var(--margin);
+}
+
+.market-projects-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.market-price {
+    gap: 30px;
+    display: flex;
+}
+
+.price-description {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+
+    color: #656084;
+}
+
+.price-switch {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F2F0FE;
+    padding: 10px 20px;
+
+    font-weight: 600;
+}
