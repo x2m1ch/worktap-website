@@ -7,12 +7,14 @@ import './styles/header.css'
 const Header = () => {
     return (
         <header className="header">
-            <img src={ logo } alt="" />
+            <Link to="/">
+                <img src={ logo } alt="" />
+            </Link>
 
             <nav>
                 <ul className='nav'>
                     <li><Link to="/market">Биржа</Link></li>
-                    <li>Ворки</li>
+                    <li><Link to="/works">Ворки</Link></li>
                     <li>Конкурсы</li>
                     <li>Создать ворк</li>
                     <li>Создать заказ</li>
